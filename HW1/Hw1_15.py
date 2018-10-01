@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 """
+
+play with PLA
+
+
 { 
 1.寻找w(t)的下一个错误分类点（x,y）（即sign（w(t)’*x）！=y）； 
 2.纠正错误：w(t+1) = w(t) + y*x； 
