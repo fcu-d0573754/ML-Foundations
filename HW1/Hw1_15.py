@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Sep 30 22:53:24 2018
+{ 
+1.寻找w(t)的下一个错误分类点（x,y）（即sign（w(t)’*x）！=y）； 
+2.纠正错误：w(t+1) = w(t) + y*x； 
+}until(每个样本都无错)
 
-@author: User
 """
 import pandas as pd
 import numpy as np
